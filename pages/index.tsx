@@ -3,31 +3,23 @@ import Home from "./Home";
 
 export default function index() {
   return (
-    <div className="bg-red-300 h-screen overflow-y-scroll scrollbar-hide">
+    <div className="">
       {/* Head */}
       <Head>
-        <title>Next.js Template</title>
+        <title>Projeto Final CC - Grupo 3</title>
       </Head>
 
-      {/* Page Top */}
-      <footer className="bg-blue-300 flex items-center justify-center w-full h-12">
-        <span>Next.js, Typescript and Tailwindcss Template - By</span>
-        <a href="https://mateusfbsoares.com/" className="pl-1 underline">
-          Mateus Soares
-        </a>
-      </footer>
-
       {/* Main Content */}
-      <main className="bg-blue-200 w-full text-2xl text-center">
+      <main className="h-screen bg-gradient-to-tl from-black to bg-gray-900 text-white overflow-y-hidden">
         <Home />
       </main>
 
       {/* Footer */}
-      <footer className="bg-blue-300 flex items-center justify-center w-full h-12">
-        <span>Next.js, Typescript and Tailwindcss Template - By</span>
-        <a href="https://mateusfbsoares.com/" className="pl-1 underline">
-          Mateus Soares
-        </a>
+      <footer className="bg-gray-900 text-gray-200 flex flex-wrap py-2 items-center justify-center w-full h-16">
+        <div className="w-full text-center">
+          Projeto de Criatividade Computacional
+        </div>
+        <div className="w-full text-center">Grupo:</div>
       </footer>
     </div>
   );

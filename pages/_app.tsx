@@ -3,7 +3,7 @@ import "tailwindcss/tailwind.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="overflow-y-hidden">
+    <div className="">
       <Component {...pageProps} />
     </div>
   );
