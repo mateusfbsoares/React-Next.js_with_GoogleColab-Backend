@@ -1,4 +1,3 @@
-# flask_ngrok_example.py
 from flask import Flask, send_file, request
 from flask_ngrok import run_with_ngrok
 from PIL import Image
